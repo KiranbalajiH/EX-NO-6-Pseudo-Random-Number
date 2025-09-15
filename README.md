@@ -29,7 +29,6 @@ int main()
     printf("Enter the maximum value: ");
     scanf("%d", &max);
 
-    // Seed the random number generator
     srand(time(NULL));
 
     printf("Pseudorandom numbers:\n");
